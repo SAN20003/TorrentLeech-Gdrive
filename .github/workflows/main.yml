@@ -9,8 +9,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ${{48fb7424-8a5c-476f-9fc1-ac5ea3564f42}}
-          heroku_app_name: ${{speedxbotf}}
+          heroku_api_key: ${{f07ce394-8fb8-4721-83f2-3258709947fa}}
+          heroku_app_name: ${{https://git.heroku.com/speedxbotf.git}}
           heroku_email: ${{bdjdjnxjx@gmail.com}}
           usedocker: true
           docker_heroku_process_type: worker
