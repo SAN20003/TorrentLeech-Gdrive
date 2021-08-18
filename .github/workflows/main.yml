@@ -9,23 +9,23 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
-          heroku_email: ${{secrets.HEROKU_EMAIL}}
+          heroku_api_key: ${{48fb7424-8a5c-476f-9fc1-ac5ea3564f42}}
+          heroku_app_name: ${{speedxbotf}}
+          heroku_email: ${{bdjdjnxjx@gmail.com}}
           usedocker: true
           docker_heroku_process_type: worker
           stack: "container"
           region: "eu"
         env:
-          HD_APP_ID: ${{secrets.APP_ID}}
-          HD_API_HASH: ${{secrets.API_HASH}}
-          HD_TG_BOT_TOKEN: ${{secrets.TG_BOT_TOKEN}}
-          HD_AUTH_CHANNEL: ${{secrets.AUTH_CHANNEL}}
-          HD_OWNER_ID: ${{secrets.OWNER_ID}}
-          HD_CHUNK_SIZE: ${{secrets.CHUNK_SIZE}}
-          HD_EDIT_SLEEP_TIME_OUT: ${{secrets.EDIT_SLEEP_TIME_OUT}} 
-          HD_MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START: ${{secrets.MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START}}
-          HD_TG_MAX_FILE_SIZE: ${{secrets.TG_MAX_FILE_SIZE}}
-          HD_MAX_TG_SPLIT_FILE_SIZE: ${{secrets.MAX_TG_SPLIT_FILE_SIZE}}
-          HD_ARIA_TWO_STARTED_PORT: ${{secrets.ARIA_TWO_STARTED_PORT}}
+          HD_APP_ID: ${{5657188}}
+          HD_API_HASH: ${{8f3877a2d0275d0e5ea1b142480a41f7}}
+          HD_TG_BOT_TOKEN: ${{1965817805:AAEISEnE2KaT8AmQPEHHXG7p0FpZr66sMgU}}
+          HD_AUTH_CHANNEL: ${{-1001428964874}}
+          HD_OWNER_ID: ${{1734267594}}
+          HD_CHUNK_SIZE: ${{128}}
+          HD_EDIT_SLEEP_TIME_OUT: ${{15}} 
+          HD_MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START: ${{300}}
+          HD_TG_MAX_FILE_SIZE: ${{90000000000000}}
+          HD_MAX_TG_SPLIT_FILE_SIZE: ${{2000000000}}
+          HD_ARIA_TWO_STARTED_PORT: ${{6800}}
 
